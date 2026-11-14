@@ -1,0 +1,775 @@
+[
+  {
+    "type": "multi",
+    "q": "Selecciona las partes principales que, según el manual, componen el equipo de paracaidismo.",
+    "options": [
+      "Arnés/contenedor",
+      "Cúpula principal",
+      "Cúpula de reserva",
+      "Dispositivo de Apertura Automática (AAD)",
+      "Altímetro"
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "El manual separa el equipo principal en arnés/contenedor, cúpula principal, cúpula de reserva y AAD. El altímetro aparece después como accesorio, no como una de esas partes principales.",
+    "source": "Manual FESAPADE, pág. 15"
+  },
+  {
+    "type": "multi",
+    "q": "¿Cuáles de estos componentes pertenecen al arnés/contenedor y participan directamente en la liberación o despliegue del sistema?",
+    "options": [
+      "Almohadilla de liberación del principal",
+      "Gancho o almohadilla de la reserva",
+      "Sistema de 3 anillos",
+      "RSL",
+      "Pin del principal y pin de la reserva",
+      "Casco"
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "explanation": "El manual enumera esos elementos como componentes importantes del arnés/contenedor. El casco figura como accesorio personal.",
+    "source": "Manual FESAPADE, págs. 16–17"
+  },
+  {
+    "type": "multi",
+    "q": "¿En qué momentos debes hacer las verificaciones del equipo antes de un salto?",
+    "options": [
+      "Antes de equiparte",
+      "Antes de abordar",
+      "Antes de salir del avión",
+      "Después de aterrizar"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "El manual establece tres momentos de verificación: antes de equiparse, antes de abordar y antes de salir del avión. La idea práctica es volver a comprobar el sistema en cada etapa antes de que ya no puedas corregir algo fácilmente.",
+    "source": "Manual FESAPADE, pág. 17"
+  },
+  {
+    "type": "single",
+    "q": "¿Para qué sirve el RSL según el manual?",
+    "options": [
+      "Ayuda a iniciar la apertura de la reserva cuando se libera la cúpula principal",
+      "Abre automáticamente la cúpula principal al salir del avión",
+      "Mide la altitud y activa una alarma"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "El RSL funciona como una línea estática asociada a la reserva: auxilia su apertura cuando la cúpula principal es liberada durante una emergencia.",
+    "source": "Manual FESAPADE, pág. 17"
+  },
+  {
+    "type": "single",
+    "q": "¿Qué papel cumple el AAD durante un salto?",
+    "options": [
+      "Es un último recurso que puede iniciar automáticamente el despliegue de la reserva al detectar condiciones peligrosas de altitud y velocidad",
+      "Es el sistema normal para abrir la cúpula principal",
+      "Sustituye la necesidad de vigilar la altitud"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "El manual describe el AAD como un sistema de seguridad de último recurso. Mide altitud y velocidad y, bajo parámetros de peligro, corta el closing loop del contenedor de reserva. No sustituye los procedimientos normales ni la conciencia de altura.",
+    "source": "Manual FESAPADE, pág. 21"
+  },
+  {
+    "type": "multi",
+    "q": "Selecciona las prácticas o limitaciones del altímetro que el manual considera importantes.",
+    "options": [
+      "Configurarlo en la zona de aterrizaje y no reajustarlo después del despegue",
+      "Combinarlo con referencias visuales en tierra",
+      "Aceptar que puede haber variaciones de ±500 pies",
+      "Una burbuja puede producir hasta 1,000 pies de diferencia",
+      "Confiar únicamente en el altímetro y no usar otras referencias"
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "El manual insiste en la conciencia de altura y trata el altímetro como referencia secundaria. Puede presentar errores mecánicos o electrónicos, por eso debe combinarse con referencias visuales y conocimiento de las alturas críticas.",
+    "source": "Manual FESAPADE, pág. 22"
+  },
+  {
+    "type": "multi",
+    "q": "Antes y durante el abordaje de la aeronave, ¿qué acciones son correctas?",
+    "options": [
+      "Aproximarte por la parte trasera de la aeronave",
+      "Hacer el segundo check del equipo",
+      "Repasar viento, navegación y aterrizaje",
+      "Proteger los mandos de liberación y los pines",
+      "Aproximarte por el frente para que el piloto te vea"
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "El manual prohíbe aproximarse por el frente. Antes de abordar se hace el segundo check, se repasa el plan y se protegen tanto los mandos como los pines para evitar una apertura o liberación accidental.",
+    "source": "Manual FESAPADE, pág. 25"
+  },
+  {
+    "type": "single",
+    "q": "La aeronave tiene una emergencia entre 0 y 1,500 pies. ¿Qué indica el manual para el alumno?",
+    "options": [
+      "Adoptar posición de impacto: rodillas dobladas, cabeza entre ellas y manos en la nuca",
+      "Salir y abrir la reserva inmediatamente",
+      "Salir y abrir el principal inmediatamente"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "El manual clasifica 0–1,500 pies como baja altura y prescribe posición de impacto en lugar de una salida con despliegue de paracaídas.",
+    "source": "Manual FESAPADE, pág. 25"
+  },
+  {
+    "type": "single",
+    "q": "La aeronave tiene una emergencia entre 1,500 y 3,000 pies. ¿Qué procedimiento indica el manual?",
+    "options": [
+      "Salida de clavado con ambas manos en el mando de la reserva y accionarla una vez fuera",
+      "Permanecer siempre dentro de la aeronave",
+      "Salir y abrir el principal"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Para esta franja, el manual indica salida de clavado y uso de la reserva una vez fuera de la aeronave.",
+    "source": "Manual FESAPADE, pág. 25"
+  },
+  {
+    "type": "single",
+    "q": "La aeronave tiene una emergencia entre 3,000 y 4,500 pies. ¿Qué indica el manual?",
+    "options": [
+      "Salir de clavado y abrir inmediatamente el paracaídas principal al salir",
+      "Usar únicamente la reserva",
+      "Adoptar posición de impacto y permanecer dentro"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "En esta franja ya se indica salir y desplegar de inmediato el principal.",
+    "source": "Manual FESAPADE, pág. 25"
+  },
+  {
+    "type": "single",
+    "q": "Hay una emergencia de aeronave por encima de 4,500 pies. ¿Qué indica el manual?",
+    "options": [
+      "Salida anticipada con orientación del maestro de salto",
+      "Esperar a descender por debajo de 1,500 pies",
+      "Abrir la reserva dentro de la aeronave"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Por encima de 4,500 pies el manual contempla una salida anticipada coordinada con el maestro de salto.",
+    "source": "Manual FESAPADE, pág. 25"
+  },
+  {
+    "type": "single",
+    "q": "¿Qué cambia si la aeronave presenta fuego o falla estructural?",
+    "options": [
+      "El manual indica salir inmediatamente",
+      "Se espera siempre a llegar a 4,500 pies",
+      "Se aterriza obligatoriamente con la aeronave"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "El manual hace una excepción explícita para fuego o falla estructural: indica salir inmediatamente.",
+    "source": "Manual FESAPADE, pág. 25"
+  },
+  {
+    "type": "single",
+    "q": "El pilotín de un paracaidista se sale y cae dentro de la aeronave. ¿Qué indica el manual?",
+    "options": [
+      "Recogerlo, alejarse de la puerta, apagar el AAD y aterrizar con la aeronave",
+      "Lanzarlo por la puerta inmediatamente",
+      "Abrir la reserva dentro del avión"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "El manual indica controlar el pilotín dentro de la aeronave, alejarse de la puerta, apagar el AAD y no realizar el salto.",
+    "source": "Manual FESAPADE, pág. 25"
+  },
+  {
+    "type": "multi",
+    "q": "Para determinar el punto de salida durante el spotting, ¿qué factores deben considerarse?",
+    "options": [
+      "Altitud de salida",
+      "Velocidad y dirección del viento",
+      "Velocidad y rumbo del avión",
+      "Tipo de salto",
+      "Color de la cúpula"
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "El spotting busca que el paracaidista pueda llegar a la zona de aterrizaje. Por eso el manual considera altitud, viento, movimiento del avión y tipo de salto; además, durante el vuelo se ajusta por deriva, nubes, obstáculos y tráfico.",
+    "source": "Manual FESAPADE, págs. 25–26"
+  },
+  {
+    "type": "multi",
+    "q": "¿Qué problemas puede producir un mal spotting?",
+    "options": [
+      "Aterrizar fuera de la zona designada",
+      "Separación peligrosa entre paracaidistas",
+      "Mayor tiempo de vuelo bajo el paracaídas y exposición a cambios climáticos",
+      "Que el AAD se apague automáticamente"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "El manual relaciona un mal punto de salida con aterrizajes fuera de zona, separación peligrosa y más tiempo bajo cúpula. El AAD no aparece como consecuencia del spotting.",
+    "source": "Manual FESAPADE, pág. 27"
+  },
+  {
+    "type": "multi",
+    "q": "¿Qué elementos forman la postura 'box' o 'rana' descrita por el manual?",
+    "options": [
+      "Caderas hacia adelante",
+      "Rodillas al ancho de los hombros",
+      "Piernas ligeramente extendidas con rodillas flexionadas",
+      "Brazos y codos alrededor de 90° y relajados",
+      "Cabeza arriba",
+      "Cuerpo completamente rígido"
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "explanation": "La postura busca estabilidad con una posición arqueada pero relajada. El manual recalca caderas adelante, rodillas separadas, piernas ligeramente extendidas, brazos/codos a 90° y cabeza arriba; no pide rigidez corporal.",
+    "source": "Manual FESAPADE, pág. 32"
+  },
+  {
+    "type": "single",
+    "q": "¿Por qué el alumno aprende inicialmente a caer boca abajo (belly)?",
+    "options": [
+      "Porque ofrece una apertura más confiable y, con el arqueo adecuado, mejor control de la caída",
+      "Porque aumenta deliberadamente la velocidad terminal",
+      "Porque permite ignorar la posición de los hombros"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "El manual señala que caer boca abajo da una apertura más confiable que dar la espalda al flujo de aire y que arquear la espalda ayuda al control.",
+    "source": "Manual FESAPADE, pág. 31"
+  },
+  {
+    "type": "single",
+    "q": "¿Por qué el manual insiste en referencias visuales y conteo de tiempo además del altímetro?",
+    "options": [
+      "Porque el altímetro puede presentar errores y el paracaidista debe desarrollar conciencia propia de las alturas críticas",
+      "Porque el altímetro solo funciona durante el ascenso",
+      "Porque el conteo de tiempo sustituye siempre al altímetro"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "El manual considera el reconocimiento visual y el conteo de tiempo habilidades primarias; el altímetro sirve para desarrollar y verificar esas habilidades, no para reemplazarlas.",
+    "source": "Manual FESAPADE, pág. 22"
+  },
+  {
+    "type": "multi",
+    "q": "A partir del tercer salto, ¿qué acciones forman parte del procedimiento de apertura descrito?",
+    "options": [
+      "Estar en posición box/rana estable",
+      "Hacer wave-off con ambas manos",
+      "Buscar el pilotín con la mano derecha y lanzarlo hacia la derecha",
+      "Si no encuentras el pilotín, deslizar la mano desde la pierna derecha hacia el contenedor",
+      "Esperar al AAD si no encuentras el pilotín"
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "El manual busca una apertura deliberada y reconocible: estabilidad, señalización, lanzamiento del pilotín y una técnica de búsqueda. Si aun así no se encuentra el pilotín, se pasa al procedimiento de emergencia; no se espera al AAD.",
+    "source": "Manual FESAPADE, pág. 34"
+  },
+  {
+    "type": "single",
+    "q": "Llegó la altura de apertura, pero no logras estabilizar tu cuerpo. ¿Qué dice el manual?",
+    "options": [
+      "Proceder con la apertura inmediatamente",
+      "Seguir cayendo hasta quedar perfectamente estable",
+      "Esperar a que actúe el AAD"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "El manual da prioridad a abrir a tiempo: si el alumno no logra estabilizarse, debe proceder con la apertura de manera inmediata.",
+    "source": "Manual FESAPADE, pág. 34"
+  },
+  {
+    "type": "single",
+    "q": "Lanzas el pilotín y pasan más de 3 segundos sin que la cúpula genere sustentación; sigues en caída libre. ¿Qué corresponde?",
+    "options": [
+      "Realizar el procedimiento de emergencia",
+      "Esperar otros 10 segundos",
+      "Hacer únicamente un wave-off"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "El primer check tras lanzar el pilotín es la sustentación. Si después de más de 3 segundos no hay sustentación y continúa la caída libre, el manual ordena procedimiento de emergencia.",
+    "source": "Manual FESAPADE, pág. 34"
+  },
+  {
+    "type": "multi",
+    "q": "Una vez abierta la cúpula, ¿qué debes comprobar en la evaluación de las 'Tres S'?",
+    "options": [
+      "Shape: forma rectangular, líneas rectas y slider abajo",
+      "Stable: vuelo estable, sin giros descontrolados y con las celdas infladas",
+      "Steerable: responde a los controles, gira y puede frenar",
+      "Speed: que alcance la mayor velocidad posible"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Shape, Stable y Steerable sirven para decidir si la apertura es normal y si la cúpula puede controlarse y frenarse para aterrizar.",
+    "source": "Manual FESAPADE, pág. 35"
+  },
+  {
+    "type": "multi",
+    "q": "¿Qué acciones forman parte del check funcional de controles bajo una cúpula abierta?",
+    "options": [
+      "Bajar ambos toggles por completo durante 2–3 segundos y regresarlos suavemente",
+      "Mirar a la derecha, verificar tráfico y realizar un giro de 90° a la derecha",
+      "Mirar a la izquierda, verificar tráfico y realizar un giro de 90° a la izquierda",
+      "Hacer un giro de 360° sin mirar alrededor"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "La prueba busca comprobar frenado y direccionamiento sin crear un riesgo de colisión. El manual pide comprobar el espacio antes de cada giro.",
+    "source": "Manual FESAPADE, pág. 35"
+  },
+  {
+    "type": "single",
+    "q": "¿Qué significa realmente la altura de decisión de 2,500 pies en este manual?",
+    "options": [
+      "Debes haber decidido si liberar o aterrizar la cúpula antes de esa altura; por debajo no se considera seguro desconectar la principal",
+      "Es la altura normal para comenzar el patrón de aterrizaje",
+      "Es la altura a la que siempre debe activarse el AAD"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "El manual cita la regla de decidir y actuar antes de 2,500 pies. La idea es no consumir la altura necesaria para completar con seguridad un procedimiento de emergencia.",
+    "source": "Manual FESAPADE, pág. 37"
+  },
+  {
+    "type": "single",
+    "q": "¿Cuál es la diferencia esencial entre los métodos A y B del procedimiento de emergencia?",
+    "options": [
+      "En el A se trabaja con una mano en cada mando; en el B se usan ambas manos sucesivamente en cada mando",
+      "El A usa la reserva y el B no",
+      "El B se realiza únicamente por debajo de 2,500 pies"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "El manual presenta ambos como formas de lograr el mismo objetivo: liberar la principal y abrir la reserva. Lo que cambia es cómo se colocan las manos.",
+    "source": "Manual FESAPADE, págs. 37–41"
+  },
+  {
+    "type": "single",
+    "q": "El contenedor abre y las líneas se estiran, pero la cúpula permanece dentro de la bolsa de empaque. ¿Qué anormalidad es y qué haces?",
+    "options": [
+      "Bag-lock: procedimiento de emergencia inmediato",
+      "Biplano: dirigir suavemente la cúpula frontal",
+      "Pilotín bajo la cúpula: hacer solo el check funcional"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "El manual define el bag-lock exactamente así y lo clasifica como una anormalidad de alta velocidad que requiere procedimiento de emergencia inmediato.",
+    "source": "Manual FESAPADE, pág. 42"
+  },
+  {
+    "type": "single",
+    "q": "Tras abrir, las líneas están torcidas y la cúpula entra en giro/picada; además no estás orientado debajo de ella. ¿Qué corresponde?",
+    "options": [
+      "Liberar la principal y activar inmediatamente la reserva, respetando la altura de decisión",
+      "Patalear indefinidamente hasta desenredar",
+      "Hacer flare y continuar el vuelo"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "El manual diferencia el line twist estable del de alta velocidad. Si hay giro/picada y no estás debajo de la cúpula, indica cutaway y reserva.",
+    "source": "Manual FESAPADE, pág. 43"
+  },
+  {
+    "type": "single",
+    "q": "Tienes line twist, pero la cúpula está centrada sobre tu cabeza, sin giro ni picada. ¿Qué indica el manual?",
+    "options": [
+      "Separar los risers y patalear —o girar el cuerpo bajo la cúpula— mientras vigilas continuamente la altitud",
+      "Liberar siempre la principal de inmediato",
+      "Soltar ambos frenos y hacer un giro de 180°"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Cuando la cúpula sigue estable, el manual permite intentar resolver la torsión. La condición importante es no perder conciencia de altura y recordar los 2,500 pies de decisión.",
+    "source": "Manual FESAPADE, pág. 45"
+  },
+  {
+    "type": "single",
+    "q": "Detectas un desgarre en la cúpula. ¿Cuál es el criterio que propone el manual?",
+    "options": [
+      "Evaluar si está estable, rectangular y dirigible; si el agujero permite meter la cabeza o ves el cielo a través de la superficie inferior, liberar y abrir reserva",
+      "Cortar siempre sin evaluar",
+      "Continuar siempre que exista algo de sustentación"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "El manual no trata todo desgarre igual. Primero aplica la evaluación funcional; para daños grandes define criterios explícitos que llevan al procedimiento de emergencia.",
+    "source": "Manual FESAPADE, pág. 44"
+  },
+  {
+    "type": "single",
+    "q": "La cúpula está parcialmente inflada, con celdas laterales cerradas y el slider a media altura. ¿Qué intento inicial indica el manual?",
+    "options": [
+      "Realizar el check funcional; al hacer flare las celdas cerradas pueden inflarse",
+      "Liberar la principal inmediatamente sin evaluar",
+      "Apagar el AAD"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "El manual trata esta situación como una anormalidad que inicialmente puede resolverse mediante el check funcional y flare.",
+    "source": "Manual FESAPADE, pág. 46"
+  },
+  {
+    "type": "single",
+    "q": "Identificas un line-over. ¿Qué indica el manual?",
+    "options": [
+      "Procedimiento de emergencia inmediato",
+      "Intentar un aterrizaje normal",
+      "Esperar hasta los 1,000 pies para decidir"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Para line-over el manual no plantea una fase de corrección: indica procedimiento de emergencia inmediato.",
+    "source": "Manual FESAPADE, pág. 47"
+  },
+  {
+    "type": "multi",
+    "q": "Tienes una configuración biplano: principal y reserva abiertas una delante de la otra. ¿Qué acciones describe el manual?",
+    "options": [
+      "Identificar la cúpula trasera y dejar sus frenos guardados",
+      "Dirigir suavemente el dosel frontal con toggles o rear risers",
+      "Prepararte para PLF al aterrizar",
+      "Separar obligatoriamente ambas cúpulas mediante cutaway"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "En biplano el manual busca evitar desestabilizar el sistema de dos cúpulas. Por eso se maneja suavemente la frontal y se prepara un PLF; no ordena un cutaway obligatorio.",
+    "source": "Manual FESAPADE, pág. 49"
+  },
+  {
+    "type": "multi",
+    "q": "Tienes una configuración side-by-side. ¿Cuáles de estas afirmaciones coinciden con el manual?",
+    "options": [
+      "Si están claramente separadas y no enredadas, puede optarse por cortar la principal y volar la reserva",
+      "Si están en contacto, se dejan guardados los frenos de la cúpula menor",
+      "La cúpula dominante se dirige suavemente",
+      "Se prepara PLF al aterrizar",
+      "Siempre debes cortar la principal sin importar cómo estén las cúpulas"
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "El manual distingue dos situaciones: separadas y sin enredo, donde puede hacerse cutaway; o en contacto, donde se evita alterar la cúpula menor y se dirige suavemente la dominante.",
+    "source": "Manual FESAPADE, pág. 50"
+  },
+  {
+    "type": "single",
+    "q": "Dos cúpulas están abiertas hacia lados opuestos y estás descendiendo a alta velocidad: es un downplane. ¿Qué indica el manual?",
+    "options": [
+      "Desconectar el RSL y liberar la cúpula principal",
+      "Hacer flare con las dos cúpulas",
+      "Mantener ambas cúpulas hasta aterrizar"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "En downplane las dos cúpulas generan una configuración de descenso rápido. El procedimiento del manual es desconectar el RSL y cortar la principal.",
+    "source": "Manual FESAPADE, pág. 51"
+  },
+  {
+    "type": "single",
+    "q": "El pilotín queda por debajo de una cúpula que parece estar volando. ¿Qué indica el manual?",
+    "options": [
+      "Aplicar la evaluación estándar: estable, rectangular y dirigible, incluyendo giros y flare",
+      "Hacer cutaway de inmediato sin evaluar",
+      "Ignorar la situación y no probar controles"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Para esta anormalidad el manual pide verificar si la cúpula sigue siendo funcional mediante la evaluación estándar.",
+    "source": "Manual FESAPADE, pág. 53"
+  },
+  {
+    "type": "single",
+    "q": "Una o varias líneas están enredadas e impiden el despliegue e inflado adecuado. ¿Qué indica el manual?",
+    "options": [
+      "Realizar procedimiento de emergencia",
+      "Continuar el patrón de aterrizaje",
+      "Hacer únicamente un giro de prueba"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "El manual clasifica las líneas enredadas que impiden el despliegue adecuado como una situación para procedimiento de emergencia.",
+    "source": "Manual FESAPADE, pág. 54"
+  },
+  {
+    "type": "single",
+    "q": "Una o varias líneas se han reventado y la cúpula puede estar estable o girando fuerte. ¿Qué indica el manual?",
+    "options": [
+      "Realizar procedimiento de emergencia",
+      "Aterrizar siempre con esa cúpula si aún produce sustentación",
+      "Soltar el arnés"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Para líneas reventadas el manual prescribe procedimiento de emergencia, incluso señalando que el comportamiento puede ir desde aparente estabilidad hasta giros fuertes.",
+    "source": "Manual FESAPADE, pág. 55"
+  },
+  {
+    "type": "multi",
+    "q": "Tras comprobar que tienes una buena cúpula, ¿qué acciones ayudan a organizar la navegación antes de entrar al patrón?",
+    "options": [
+      "Comprobar altura y posición sobre el suelo",
+      "Localizar el área de espera y los puntos de control",
+      "Planificar llegar al punto de entrada del patrón a 1,000 pies",
+      "Vigilar otras cúpulas y revisar periódicamente altura y posición",
+      "Ir directamente al punto de aterrizaje sin considerar el patrón"
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "El manual propone usar una zona de espera y una ruta hacia puntos de control, manteniendo conciencia de altura, posición y tráfico. El patrón no se sustituye por volar directamente al objetivo.",
+    "source": "Manual FESAPADE, pág. 57"
+  },
+  {
+    "type": "single",
+    "q": "¿Cuál es la secuencia de alturas del patrón de aterrizaje descrito en el manual?",
+    "options": [
+      "Entrada al patrón a 1,000 pies, base a 600 pies y aproximación final a 300 pies",
+      "Entrada a 2,500 pies, base a 1,500 y final a 1,000",
+      "Entrada a 600 pies, base a 300 y final a 100"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "El manual usa 1,000/600/300 pies como puntos de control del patrón. Aprenderlos como una secuencia ayuda a relacionar cada altura con una fase concreta, en vez de memorizar tres números aislados.",
+    "source": "Manual FESAPADE, pág. 60"
+  },
+  {
+    "type": "multi",
+    "q": "Antes de abordar, ¿qué elementos deben quedar definidos para el aterrizaje?",
+    "options": [
+      "El patrón usando foto aérea, diagrama, mapa o maqueta",
+      "La velocidad y dirección del viento",
+      "El punto de aterrizaje y la línea de viento",
+      "Una dirección predeterminada si el viento es nulo, ligero o variable",
+      "Improvisar el patrón una vez estés por debajo de 600 pies"
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "El manual quiere que el patrón sea premeditado. Se planifica antes de abordar y se basa en la zona, el viento y puntos de control, en lugar de improvisarse a baja altura.",
+    "source": "Manual FESAPADE, pág. 60"
+  },
+  {
+    "type": "multi",
+    "q": "Durante la aproximación final, ¿qué conductas recomienda el manual?",
+    "options": [
+      "Mantener vuelo recto hacia un área abierta y libre de obstáculos",
+      "Usar solo pequeñas correcciones si son necesarias",
+      "Mirar hacia el horizonte para juzgar mejor la altura de frenado",
+      "Mantener piernas y rodillas juntas, preparado para PLF",
+      "Si vuelas recto, mantener los mandos arriba en full flight hasta iniciar el flare",
+      "Hacer giros fuertes para corregir el punto de aterrizaje"
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "explanation": "La aproximación final prioriza estabilidad y un área despejada. El manual evita maniobras agresivas a baja altura y prepara al alumno tanto para el flare como para un PLF.",
+    "source": "Manual FESAPADE, pág. 63"
+  },
+  {
+    "type": "single",
+    "q": "¿Cómo describe el manual la secuencia básica del flare al aterrizar?",
+    "options": [
+      "A unas dos veces tu estatura, llevar los mandos a medio freno; justo antes de tocar, bajarlos completamente",
+      "Bajar completamente los mandos desde 300 pies y mantenerlos",
+      "Subir los mandos justo antes de tocar para ganar velocidad"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "El manual describe una aplicación progresiva: medio freno aproximadamente a dos veces la estatura y full flare justo antes del contacto con el suelo.",
+    "source": "Manual FESAPADE, pág. 63"
+  },
+  {
+    "type": "single",
+    "q": "Iniciaste el flare demasiado alto. ¿Qué indica el manual?",
+    "options": [
+      "Dejar de profundizar el frenado y mantener los mandos donde están; no subirlos bruscamente",
+      "Subir ambos mandos inmediatamente hasta full flight",
+      "Hacer un giro para perder altura"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Subir bruscamente los mandos después de un flare alto puede hacer que el paracaídas se clave de frente. El manual indica mantenerlos y completar el frenado cerca del suelo.",
+    "source": "Manual FESAPADE, pág. 63"
+  },
+  {
+    "type": "multi",
+    "q": "Te das cuenta de que no podrás llegar a la zona de aterrizaje prevista. ¿Qué acciones recomienda el manual?",
+    "options": [
+      "No perder altura intentando regresar si existe una alternativa",
+      "Elegir una zona alterna según tu posición y el viento",
+      "Planear un patrón hacia esa zona alterna",
+      "Buscar riesgos mientras todavía tienes altura y tiempo para evitarlos",
+      "Insistir en volver al área original aunque llegues muy bajo"
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "El manual prioriza conservar opciones. Intentar forzar el regreso puede dejarte bajo y sin margen; por eso pide elegir pronto una zona alterna, planearla y revisar peligros.",
+    "source": "Manual FESAPADE, pág. 65"
+  },
+  {
+    "type": "multi",
+    "q": "Al evaluar una zona alterna desde altura, ¿qué pistas o riesgos menciona el manual?",
+    "options": [
+      "Postes y torres ayudan a detectar líneas eléctricas",
+      "Cercas y líneas eléctricas suelen formar líneas rectas en el suelo",
+      "La dirección del viento ayuda a anticipar turbulencia de árboles u obstáculos",
+      "Cercas y laderas pueden ser difíciles de detectar desde altura",
+      "Las sombras de nubes indican de forma fiable dónde no hay cables"
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "El manual recomienda usar indicios visibles del terreno y considerar cómo el viento interactúa con obstáculos. También advierte que algunas amenazas, como cercas y laderas, son difíciles de ver.",
+    "source": "Manual FESAPADE, pág. 65"
+  },
+  {
+    "type": "multi",
+    "q": "Si el aterrizaje contra un edificio u otro obstáculo ya es inevitable, ¿qué medidas describe el manual?",
+    "options": [
+      "Prepararte para PLF",
+      "Frenar aproximadamente a 3 metros del primer punto de contacto",
+      "Recibir el obstáculo con las piernas si llegas sobre él o de frente",
+      "Realizar un giro agresivo a último momento"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Una vez que el obstáculo es inevitable, el manual cambia de evitarlo a reducir consecuencias: flare, piernas como primer contacto y preparación para PLF. No recomienda un giro agresivo a baja altura.",
+    "source": "Manual FESAPADE, pág. 65"
+  },
+  {
+    "type": "multi",
+    "q": "Has iniciado un giro a una altura insegura. ¿Qué respuesta describe el manual?",
+    "options": [
+      "Usar los mandos para volver a colocar la cúpula sobre ti y detener el giro",
+      "Finalizar la caída y prepararte para PLF",
+      "Gestionar la velocidad inducida por el giro",
+      "Si llegas al suelo antes de lo esperado, seguir volando la cúpula para reducir la lesión",
+      "Aumentar el giro para terminarlo más rápido"
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "El manual identifica los giros bajos como una causa principal de lesiones y muertes. La prioridad pasa a recuperar una cúpula sobre la cabeza, evitar más maniobra y gestionar el contacto con el suelo.",
+    "source": "Manual FESAPADE, pág. 66"
+  },
+  {
+    "type": "multi",
+    "q": "¿Qué debería cubrir un briefing antes de un salto, según el manual?",
+    "options": [
+      "Tipo, altitud y objetivo del salto",
+      "Revisión de equipo y procedimientos de emergencia",
+      "Plan de vuelo, posición corporal, señales y apertura",
+      "Dirección y zona de aterrizaje",
+      "Roles de los participantes y condiciones meteorológicas",
+      "Solo la hora a la que despega el avión"
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "explanation": "El briefing sirve para que todos lleguen al salto con el mismo plan: qué se hará, cómo se hará, qué riesgos existen y qué hacer si algo sale mal.",
+    "source": "Manual FESAPADE, pág. 67"
+  }
+]

@@ -1,0 +1,10 @@
+node_modules/
+.npm-cache/
+.preview/
+dist/
+test-results/
+playwright-report/
+reference-contact-sheet.png
+.pdf-tools/
+.pdf-cache/
+.DS_Store

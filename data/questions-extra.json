@@ -1,0 +1,192 @@
+[
+  {
+    "topic": "historia",
+    "page": 10,
+    "type": "single",
+    "q": "Según la cronología del manual, ¿quién realizó el salto registrado de 1797?",
+    "options": [
+      "André-Jacques Garnerin",
+      "Charles Broadwick",
+      "Grant Morton"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "El manual sitúa en 1797 el salto de André-Jacques Garnerin desde un globo, utilizando un paracaídas de seda."
+  },
+  {
+    "topic": "historia",
+    "page": 12,
+    "type": "single",
+    "q": "¿Qué caracteriza al trabajo relativo o formación descrito en el manual?",
+    "options": [
+      "Hacer formaciones entre paracaidistas durante la caída libre",
+      "Realizar únicamente aterrizajes de precisión",
+      "Saltar siempre unido al arnés de un instructor"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "El trabajo relativo o formación consiste en construir formaciones durante el descenso en caída libre."
+  },
+  {
+    "topic": "instruccion",
+    "page": 15,
+    "type": "multi",
+    "q": "¿Qué modalidades de instrucción inicial presenta el manual?",
+    "options": [
+      "Tándem",
+      "Apertura asistida o línea estática",
+      "AFF",
+      "Wingsuit como primer salto"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "El capítulo de instrucción presenta tándem, apertura asistida o con línea estática y descenso libre acelerado (AFF).",
+    "imagePage": 13
+  },
+  {
+    "topic": "instruccion",
+    "page": 15,
+    "type": "single",
+    "q": "¿Cómo participa el instructor en un salto tándem?",
+    "options": [
+      "El pasajero va conectado al arnés del instructor",
+      "Permanece en tierra y dirige únicamente por radio",
+      "Vuela separado sin conexión al alumno"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "El manual describe al pasajero sujeto al pecho del instructor mediante conexiones al arnés.",
+    "imagePage": 13
+  },
+  {
+    "topic": "instruccion",
+    "page": 15,
+    "type": "single",
+    "q": "En la modalidad AFF descrita, ¿quién realiza la apertura del equipo del alumno?",
+    "options": [
+      "El propio alumno",
+      "El piloto de la aeronave",
+      "Un instructor desde tierra"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Dos instructores acompañan y sostienen al estudiante en la salida y la caída libre; el alumno realiza la apertura de su equipo."
+  },
+  {
+    "topic": "salida",
+    "page": 30,
+    "type": "single",
+    "q": "¿Dónde puedes estudiar la secuencia visual de salida de la aeronave?",
+    "options": [
+      "En el capítulo 5, Salida de la aeronave",
+      "En el glosario de siglas únicamente",
+      "En la tabla de licencias"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "El capítulo 5 contiene la referencia visual para estudiar la salida; el ensayo en tierra se realiza con el instructor."
+  },
+  {
+    "topic": "progresion",
+    "page": 69,
+    "type": "single",
+    "q": "¿Cuál es el propósito del debriefing?",
+    "options": [
+      "Analizar el salto realizado, reconocer aciertos y definir mejoras",
+      "Sustituir las verificaciones de equipo anteriores al salto",
+      "Elegir únicamente la hora del siguiente despegue"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "El debriefing ocurre después del salto y permite analizar resultados, errores, aciertos y recomendaciones para los próximos saltos."
+  },
+  {
+    "topic": "progresion",
+    "page": 69,
+    "type": "multi",
+    "q": "¿Qué aspectos forman parte de un debriefing constructivo?",
+    "options": [
+      "Revisar los objetivos del salto",
+      "Reconocer aciertos",
+      "Identificar errores y cómo evitarlos",
+      "Planificar mejoras",
+      "Omitir cualquier incidente de seguridad"
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "El manual incluye objetivos, desempeño, errores, aciertos, recomendaciones y revisión de incidentes. La retroalimentación debe ser respetuosa y útil."
+  },
+  {
+    "topic": "glosario",
+    "page": 75,
+    "type": "single",
+    "q": "¿Qué significa la sigla PLF en el glosario?",
+    "options": [
+      "Parachute Landing Fall",
+      "Pilot Line Flight",
+      "Principal Landing Flare"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "El glosario define PLF como Parachute Landing Fall, la caída de paracaidista."
+  },
+  {
+    "topic": "glosario",
+    "page": 75,
+    "type": "single",
+    "q": "¿Qué término corresponde a la carga alar?",
+    "options": [
+      "Wing load",
+      "Wave-off",
+      "Briefing"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "El glosario relaciona Wing load con carga alar. Wave-off es una señal de apertura y briefing es la reunión previa al salto."
+  },
+  {
+    "topic": "glosario",
+    "page": 75,
+    "type": "single",
+    "q": "¿Cuál es la diferencia entre briefing y debriefing?",
+    "options": [
+      "El briefing se realiza antes del salto; el debriefing después",
+      "Ambos se realizan únicamente después del salto",
+      "El debriefing es un componente del contenedor"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "El glosario distingue la reunión informativa anterior al salto (briefing) de la evaluación posterior (debriefing)."
+  },
+  {
+    "topic": "glosario",
+    "page": 75,
+    "type": "single",
+    "q": "¿Qué significa AAD según el glosario del manual?",
+    "options": [
+      "Dispositivo de Apertura Automática",
+      "Área de Aterrizaje Designada",
+      "Apertura Asistida Doble"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "AAD corresponde a Automatic Activation Device, en español Dispositivo de Apertura Automática."
+  }
+]

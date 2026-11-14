@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#142e3c">
+  <meta name="description" content="Estudia el manual FESAPADE 2025, repasa por módulos y prepara tu examen teórico de paracaidismo con preguntas e imágenes de referencia.">
+  <title>Estudio de paracaidismo · Manual interactivo</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23142e3c'/%3E%3Cpath d='M10 30a22 22 0 0 1 44 0M10 30h44M10 30l22 22 22-22M32 10v42' fill='none' stroke='%23e8a75c' stroke-width='3'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./styles.css">
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">Saltar al contenido</a>
+  <aside class="sidebar">
+    <a href="#inicio" class="brand" aria-label="Estudio de paracaidismo, inicio"><span class="brand-symbol" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M5 23a19 19 0 0 1 38 0H5Zm0 0 19 20 19-20M24 4v39M13 23c0-11 4-19 11-19s11 8 11 19"/></svg></span><span>ESTUDIO DE<br><strong>PARACAIDISMO</strong></span></a>
+    <div class="sidebar-label">TU CENTRO DE ESTUDIO</div>
+    <nav aria-label="Navegación principal" id="navigation">
+      <a href="#inicio" data-nav="inicio"><span data-icon="grid"></span>Vista general</a>
+      <a href="#manual" data-nav="manual"><span data-icon="book"></span>Manual digital<span class="nav-tag">2025</span></a>
+      <a href="#repaso" data-nav="repaso"><span data-icon="layers"></span>Repaso por temas</a>
+      <a href="#examen" data-nav="examen"><span data-icon="clipboard"></span>Simulacro de examen</a>
+      <a href="#progreso" data-nav="progreso"><span data-icon="chart"></span>Mi progreso</a>
+    </nav>
+    <div class="sidebar-bottom"><span class="small-canopy" data-icon="canopy"></span><strong>Aprende en tierra.<br>Prepárate para el cielo.</strong><p>Basado en el Manual del Alumno<br>FESAPADE · Primera edición, 2025</p><div class="edition"><span></span>Tu progreso se guarda en este navegador</div></div>
+  </aside>
+  <div class="workspace">
+    <header class="topbar"><div class="breadcrumb">CENTRO DE FORMACIÓN <span>/</span> <strong id="breadcrumb">Vista general</strong></div><div class="topbar-meta"><span class="status-dot"></span>MANUAL FESAPADE 2025<span class="avatar" aria-label="Perfil local">EP</span></div></header>
+    <main id="main" tabindex="-1"><div class="loading">Preparando tu centro de estudio…</div></main>
+    <footer class="footer"><span>Estudio de paracaidismo · Material de apoyo independiente</span><span>Estudia con el manual. Practica con tu instructor.</span></footer>
+  </div>
+  <dialog id="image-dialog" aria-label="Imagen de referencia ampliada"><button class="dialog-close secondary" data-action="close-image" aria-label="Cerrar imagen">Cerrar ✕</button><img alt=""><p></p></dialog>
+  <dialog id="confirm-dialog" aria-labelledby="confirm-title"><h2 id="confirm-title">Finalizar el examen</h2><p id="confirm-message"></p><div class="actions"><button class="secondary" data-action="cancel-finish">Seguir respondiendo</button><button class="primary" data-action="confirm-finish">Finalizar y corregir</button></div></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <noscript>Activa JavaScript para consultar el manual interactivo y los cuestionarios. También puedes abrir el <a href="./CURSO%20DE%20PARACAIDISMO%20-%20FESAPADE_2025.pdf">manual PDF</a>.</noscript>
+</body>
+</html>
