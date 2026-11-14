@@ -18,6 +18,19 @@ if(command==='enable'){
   if(current.status===404){const result=await api('/pages','POST',{build_type:'workflow'});console.log(JSON.stringify({status:result.status,url:result.data.html_url,message:result.data.message}));if(result.status>=400)process.exitCode=1;}
   else if(current.status===200&&current.data.build_type!=='workflow'){const result=await api('/pages','PUT',{build_type:'workflow'});console.log(JSON.stringify({status:result.status,message:result.data.message}));if(result.status>=400)process.exitCode=1;}
   else{console.log(JSON.stringify({status:current.status,url:current.data.html_url,build_type:current.data.build_type,message:current.data.message}));if(current.status>=400)process.exitCode=1;}
+}else if(command==='logs'){
+  const runs=await api('/actions/workflows/pages.yml/runs?per_page=1');
+  const run=runs.data.workflow_runs?.[0];
+  if(run){
+    const jobs=await api(`/actions/runs/${run.id}/jobs`);
+    for(const job of jobs.data.jobs||[]){
+      console.log(JSON.stringify({name:job.name,status:job.status,conclusion:job.conclusion,steps:job.steps.map(s=>({name:s.name,conclusion:s.conclusion}))}));
+      if(job.conclusion==='failure'){
+        const response=await fetch(`https://api.github.com/repos/${repository}/actions/jobs/${job.id}/logs`,{headers});
+        const text=await response.text();console.log(text.slice(-16000));
+      }
+    }
+  }
 }else if(command==='dispatch'){
   const response=await fetch('https://api.github.com/repos/'+repository+'/actions/workflows/pages.yml/dispatches',{method:'POST',headers,body:JSON.stringify({ref:'main'})});
   console.log(JSON.stringify({status:response.status}));if(response.status>=400)process.exitCode=1;
